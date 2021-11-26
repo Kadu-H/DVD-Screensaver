@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+section{
+    position: relative;
+    background-color: crimson;
+}
+.logo{
+    position: absolute;
+    width: 200px;
+    filter: drop-shadow(2px 4px 8px black);
+}
+h1{
+    display: grid;
+    place-items: center;
+    font-size: 70px;
+    font-family: monospace;
+}
+a{
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    color: yellow;
+    font-size: 60px;
+    font-family: monospace;
+}
